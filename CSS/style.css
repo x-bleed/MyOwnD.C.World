@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f7f4;
+    color: #1a1a1a;
+    line-height: 1.7;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid #e0ddd8;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 0.95rem;
+}
+
+nav ul a:hover {
+    opacity: 0.5;
+}
+
+/* HERO */
+.hero {
+    padding: 6rem 3rem 3rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.tagline {
+    margin-top: 0.75rem;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* ABOUT */
+.about-content {
+    padding: 3rem;
+    max-width: 680px;
+}
+
+.about-content h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.about-content p {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    color: #2a2a2a;
+    max-width: 620px;
+}
+
+.about-content h2 {
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 6rem;
+    padding: 2rem 3rem;
+    border-top: 1px solid #e0ddd8;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+/* CV PAGE */
+.cv-page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+
+.cv-header {
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 1.5rem;
+}
+
+.cv-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.cv-updated {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.cv-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #e0ddd8;
+}
+
+.cv-section h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #999;
+    margin-bottom: 1.2rem;
+}
+
+.cv-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.cv-title {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cv-place {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cv-date {
+    font-size: 0.82rem;
+    color: #999;
+}
+
+.cv-empty {
+    font-size: 0.9rem;
+    color: #bbb;
+    font-style: italic;
+}/* XS1 Reaper — global styles */
+
+/* DIARY PAGE */
+.diary-page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+
+.diary-header {
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 1.5rem;
+}
+
+.diary-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.diary-sub {
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+    color: #999;
+}
+
+.diary-entry {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e0ddd8;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.diary-date {
+    font-size: 0.82rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.diary-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.diary-preview {
+    font-size: 0.95rem;
+    color: #555;
+    max-width: 580px;
+}
+
+.read-more {
+    font-size: 0.88rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.read-more:hover {
+    opacity: 0.5;
+}
+
+/* DIARY POST PAGE */
+.post-page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+
+.post-header {
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.post-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    color: #2a2a2a;
+    max-width: 620px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    opacity: 0.5;
+}
